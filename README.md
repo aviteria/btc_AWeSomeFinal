@@ -11,10 +11,10 @@
 ---
 
 ### WBS
-![wbs](https://user-images.githubusercontent.com/59479926/209426360-187519a9-862f-4c77-841b-fb547fbea7a5.png)
+![wbs](https://user-images.githubusercontent.com/59479926/209446116-426833bf-15d9-4833-a309-49409ae87174.jpg)
 
 ### 사용한 Stack
-![사용기술](https://user-images.githubusercontent.com/59479926/209426411-edb0c86b-09ee-4b12-bb81-a5aadd67721e.png)
+![사용기술](https://user-images.githubusercontent.com/59479926/209446135-b20683c8-7bbc-4015-8160-5247161736b1.jpg)
 <!--![비로그인웹](https://user-images.githubusercontent.com/59479926/209426962-49ea56f5-7511-4a95-820e-64f0a9bb75f8.png)-->
 <!--![로그인웹](https://user-images.githubusercontent.com/59479926/209427044-a0a6dbf4-fcd0-4751-adda-30f6c543b5aa.png)-->
 <!--![infra](https://user-images.githubusercontent.com/59479926/209427546-30666085-f135-4b58-a922-5c01542df95f.png)-->
