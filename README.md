@@ -24,3 +24,9 @@
 <!--![mornitoring](https://user-images.githubusercontent.com/59479926/209428130-d97175a1-a677-4e43-87f4-d646095a8332.png)-->
 <!--![grafana](https://user-images.githubusercontent.com/59479926/209428192-f7a6ba1b-2b99-4fb5-a2f8-6cecd68c5f23.png)-->
 <!--<img width="726" alt="kiali" src="https://user-images.githubusercontent.com/59479926/209428392-f2715a26-fe2f-4e6c-b57e-278415debbaf.png">-->
+<!--![cicd](https://user-images.githubusercontent.com/59479926/209446164-5d67698c-6fe6-4c94-8f7f-011d25a8c715.jpg)-->
+<!--![infra](https://user-images.githubusercontent.com/59479926/209446219-9dcb1431-9f97-4e99-9b45-03094872e6da.jpg)-->
+<!--![mornitoring](https://user-images.githubusercontent.com/59479926/209446258-ddf8b294-4219-429e-b59f-fed45788d4c4.jpg)-->
+
+
+
