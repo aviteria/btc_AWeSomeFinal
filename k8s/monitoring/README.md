@@ -1,6 +1,6 @@
 # Mornitoring
 ## Process
-![mornitoring](https://user-images.githubusercontent.com/59479926/209428130-d97175a1-a677-4e43-87f4-d646095a8332.png)
+![mornitoring](https://user-images.githubusercontent.com/59479926/209446258-ddf8b294-4219-429e-b59f-fed45788d4c4.jpg)
 ---
 ### Applications (Kibana)
 ![apm](https://user-images.githubusercontent.com/59479926/209428055-8ede0586-3f9d-45d2-8e6a-75202447b8b5.png)
