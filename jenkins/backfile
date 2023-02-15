@@ -3,7 +3,7 @@ pipeline {
     
     environment {
         ECR_PATH = '984698261595.dkr.ecr.ap-northeast-2.amazonaws.com'
-        IMAGE_NAME = 'awesome-front'
+        IMAGE_NAME = 'back'
         REGION = 'ap-northeast-2'
         AWS_CREDENTIAL_NAME = 'bjy_aws'
         GIT_TK = 'git_bjy'
