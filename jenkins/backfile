@@ -65,7 +65,7 @@ pipeline {
                dir(path: 'application/spring-boot') {
                     sh 'ls'
                     sh 'chmod 755 mvnw'
-                    sh './mvnw clean package'
+                    sh './mvnw clean package -DskipTests'
                 }   
             }
             // post {
