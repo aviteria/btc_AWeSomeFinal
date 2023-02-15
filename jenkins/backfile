@@ -111,7 +111,7 @@ pipeline {
         stage('Push image') {
             steps {
                 script{
-                    docker.withRegistry('https://984698261595.dkr.ecr.ap-northeast-2.amazonaws.com', 'ecr:ap-northeast-2:back') {
+                    docker.withRegistry('https://984698261595.dkr.ecr.ap-northeast-2.amazonaws.com', 'ecr:ap-northeast-2:bjy_aws') {
                     
                     docker.image("${ECR_PATH}/${IMAGE_NAME}:${BUILD_NUMBER}").push()
                     }
