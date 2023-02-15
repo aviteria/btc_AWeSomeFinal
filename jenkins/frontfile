@@ -38,8 +38,9 @@ pipeline {
         stage('clone project') {
             steps {
                 script {
-                    deployGit = git(url: 'https://github.com/BAE-JI-WANG/btc_AWeSomeFinal.git/application/', branch: 'main', credentialsId: 'git_bjy')
+                    deployGit = git(url: 'https://github.com/BAE-JI-WANG/btc_AWeSomeFinal.git', branch: 'main', credentialsId: 'git_bjy')
                  }
+                sh "cd application"
                 sh "tar cvf vue.tar vue/"
             }
             // post {
