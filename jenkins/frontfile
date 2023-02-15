@@ -17,22 +17,22 @@ pipeline {
                 echo 'init stage'
                 deleteDir()
             }
-            post {
-                success {
-                    slackSend (
-                        channel: '# finalproject',
-                        color: '#01786f',
-                        message: 'front!! init success!!'
-                    )
-                }
-                failure {
-                   slackSend (
-                        channel: '# finalproject',
-                        color: '#ce6054',
-                        message: 'front!! init failure!!'
-                     )
-                }
-            }
+            // post {
+            //     success {
+            //         slackSend (
+            //             channel: '# finalproject',
+            //             color: '#01786f',
+            //             message: 'front!! init success!!'
+            //         )
+            //     }
+            //     failure {
+            //        slackSend (
+            //             channel: '# finalproject',
+            //             color: '#ce6054',
+            //             message: 'front!! init failure!!'
+            //          )
+            //     }
+            // }
         }
 
         stage('clone project') {
@@ -42,22 +42,22 @@ pipeline {
                  }
                 sh "tar cvf vue.tar vue/"
             }
-            post {
-                success {
-                    slackSend (
-                        channel: '# finalproject',
-                        color: '#01786f',
-                        message: 'front!! clone project success!!'
-                    )
-                }
-                failure {
-                   slackSend (
-                        channel: '# finalproject',
-                        color: '#ce6054',
-                        message: 'front!! clone project failure!!'
-                     )
-                }
-            }
+            // post {
+            //     success {
+            //         slackSend (
+            //             channel: '# finalproject',
+            //             color: '#01786f',
+            //             message: 'front!! clone project success!!'
+            //         )
+            //     }
+            //     failure {
+            //        slackSend (
+            //             channel: '# finalproject',
+            //             color: '#ce6054',
+            //             message: 'front!! clone project failure!!'
+            //          )
+            //     }
+            // }
         }
 
         stage("Docker build") {
@@ -65,22 +65,22 @@ pipeline {
                 sh 'docker build -t ${ECR_PATH}/${IMAGE_NAME}:${BUILD_NUMBER} -f dockerfile/frontfile .'
                 sh 'rm -rf vue.tar'
             } 
-            post {
-                success {
-                    slackSend (
-                        channel: '# finalproject',
-                        color: '#01786f',
-                        message: 'front!! Docker build success!!'
-                    )
-                }
-                failure {
-                   slackSend (
-                        channel: '# finalproject',
-                        color: '#ce6054',
-                        message: 'front!! Docker build failure!!'
-                     )
-                }
-            }
+            // post {
+            //     success {
+            //         slackSend (
+            //             channel: '# finalproject',
+            //             color: '#01786f',
+            //             message: 'front!! Docker build success!!'
+            //         )
+            //     }
+            //     failure {
+            //        slackSend (
+            //             channel: '# finalproject',
+            //             color: '#ce6054',
+            //             message: 'front!! Docker build failure!!'
+            //          )
+            //     }
+            // }
         }
 
         stage('Push image') {
@@ -92,22 +92,22 @@ pipeline {
                     }
                 }   
             }
-            post {
-                success {
-                    slackSend (
-                        channel: '# finalproject',
-                        color: '#01786f',
-                        message: 'front!! Push image success!!'
-                    )
-                }
-                failure {
-                   slackSend (
-                        channel: '# finalproject',
-                        color: '#ce6054',
-                        message: 'front!! Push image failure!!'
-                     )
-                }
-            }
+            // post {
+            //     success {
+            //         slackSend (
+            //             channel: '# finalproject',
+            //             color: '#01786f',
+            //             message: 'front!! Push image success!!'
+            //         )
+            //     }
+            //     failure {
+            //        slackSend (
+            //             channel: '# finalproject',
+            //             color: '#ce6054',
+            //             message: 'front!! Push image failure!!'
+            //          )
+            //     }
+            // }
         }
 
         stage("k8s Deploy") {
@@ -124,22 +124,22 @@ pipeline {
                     }   
                 }
             }
-            post {
-                success {
-                    slackSend (
-                        channel: '# finalproject',
-                        color: '#01786f',
-                        message: 'front!! k8s Deploy success!!'
-                    )
-                }
-                failure {
-                   slackSend (
-                        channel: '# finalproject',
-                        color: '#ce6054',
-                        message: 'front!! k8s Deploy failure!!'
-                     )
-                }
-            }
+            // post {
+            //     success {
+            //         slackSend (
+            //             channel: '# finalproject',
+            //             color: '#01786f',
+            //             message: 'front!! k8s Deploy success!!'
+            //         )
+            //     }
+            //     failure {
+            //        slackSend (
+            //             channel: '# finalproject',
+            //             color: '#ce6054',
+            //             message: 'front!! k8s Deploy failure!!'
+            //          )
+            //     }
+            // }
         }   
     }
 }
