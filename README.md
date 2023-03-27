@@ -10,12 +10,12 @@
      - Istio를 통해 서비스매쉬를 구성하고, Kiali를 통해 Network Traffic Monitoring 구축
      - Slack 통한 각 서비스 알람 구현
 ## Repository
-### - [웹](https://github.com/BAE-JI-WANG/btc_AWeSomeFinal/tree/main/application)
-### - [CI/CD](https://github.com/BAE-JI-WANG/btc_AWeSomeFinal/tree/main/jenkins)
-### - [Kubernetes](https://github.com/BAE-JI-WANG/btc_AWeSomeFinal/tree/main/k8s)
-### - [Monitoring](https://github.com/BAE-JI-WANG/btc_AWeSomeFinal/tree/main/k8s/monitoring)
-### - [ServiceMesh](https://github.com/BAE-JI-WANG/btc_AWeSomeFinal/tree/main/serviceMesh)
-### - [Terraform](https://github.com/BAE-JI-WANG/btc_AWeSomeFinal/tree/main/terraform)
+### - [웹](https://github.com/aviteria/btc_AWeSomeFinal/tree/main/application)
+### - [CI/CD](https://github.com/aviteria/btc_AWeSomeFinal/tree/main/jenkins)
+### - [Kubernetes](https://github.com/aviteria/btc_AWeSomeFinal/tree/main/k8s)
+### - [Monitoring](https://github.com/aviteria/btc_AWeSomeFinal/tree/main/k8s/monitoring)
+### - [ServiceMesh](https://github.com/aviteria/btc_AWeSomeFinal/tree/main/serviceMesh)
+### - [Terraform](https://github.com/aviteria/btc_AWeSomeFinal/tree/main/terraform)
 ---
 ## Role
 - 팀장으로써 팀원들의 업무분담 및 일정 관리
